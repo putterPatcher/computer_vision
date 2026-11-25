@@ -9,5 +9,5 @@ class ClusterDetection:
             else:raise Exception
         except Exception as e:invalid_command('ClusterDetection');retrn(ret,e);
 
-    def get_clusters():
+    def get_clusters(self):
         pass
