@@ -1,0 +1,1 @@
+def invalid_command(command:str):return print(f"Invalid Command: {command}");
