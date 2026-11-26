@@ -7,7 +7,7 @@ def plotImg(img:MatLike,plot:str='cv'):
     '''
     pass
 
-def plotImgSI(imgs:tuple[MatLike,...]|list[MatLike,...]):
+def plotImgSI(imgs:tuple[MatLike,...]|list[MatLike]):
     '''
         Plot superimposed images.
     '''
