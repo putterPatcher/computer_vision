@@ -4,8 +4,11 @@ from matplotlib import pyplot as plt
 import cv2 as cv
 import numpy as np
 
-image = readImage("C:\\ComputerVision\\images.jpg", 'HSV')
+image = readImage(".\\images (1).jpg", 'HSV')
 
-mask = get_mask_in_range(image, 'RBG', np.array([10, 0, 50]), np.array([18, 65, 100]))
+plt.imshow(image)
+plt.show()
+
+mask = get_mask_in_range(image, 'RBG', np.array([0, 0, 0]), np.array([20, 255, 100]))
 plt.imshow(mask)
 plt.show()
